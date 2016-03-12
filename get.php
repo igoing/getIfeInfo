@@ -11,7 +11,7 @@ if (null === $lastUid[0]) {
     $uid = $lastUid[0] + 1;
 }
 
-while ($uid - $lastUid[0] <= 50) {
+while ($uid - $lastUid[0] <= 120) {
     // 获取远程页面
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
